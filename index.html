@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn with Munaaf</title>
+
+  <meta name="description" content="Munaaf - Join the Telegram channel for updates and educational information.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- OpenAI ChatGPT Ads Measurement Pixel -->
+  <script>
+    (function (w, d, s, u) {
+      if (w.oaiq) return;
+
+      var q = function () {
+        q.q.push(arguments);
+      };
+
+      q.q = [];
+      w.oaiq = q;
+
+      var js = d.createElement(s);
+      js.async = true;
+      js.src = u;
+
+      var f = d.getElementsByTagName(s)[0];
+      f.parentNode.insertBefore(js, f);
+
+    })(window, document, "script",
+       "https://bzrcdn.openai.com/sdk/oaiq.min.js");
+
+    oaiq("init", {
+      pixelId: "R5uGF6Rb45DWu5aV3fTD72",
+      debug: true
+    });
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 520px;
+      min-height: 100vh;
+      padding: 28px 18px 34px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .profile-wrap {
+      width: 122px;
+      height: 122px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #eee;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+
+    .profile-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.18;
+      font-weight: 800;
+      letter-spacing: -.4px;
+      overflow-wrap: anywhere;
+    }
+
+    .verified {
+      font-size: 14px;
+      vertical-align: top;
+      margin-left: 2px;
+    }
+
+    .subs {
+      margin-top: 9px;
+      color: #8b8b8b;
+      font-size: 15px;
+    }
+
+    .tagline {
+      margin: 20px 0 14px;
+      font-size: 15px;
+      line-height: 1.55;
+      overflow-wrap: anywhere;
+    }
+
+    .divider {
+      width: 56px;
+      height: 3px;
+      border-radius: 99px;
+      background: #278bd1;
+      margin: 19px auto 16px;
+    }
+
+    .about {
+      color: #333;
+      font-size: 14px;
+      line-height: 1.65;
+      margin: 0 auto;
+      max-width: 455px;
+      overflow-wrap: anywhere;
+    }
+
+    .about strong {
+      color: #111;
+    }
+
+    .notice {
+      margin: 18px auto 0;
+      padding: 12px 14px;
+      max-width: 460px;
+      border: 1px solid #e7e7e7;
+      border-radius: 12px;
+      background: #fafafa;
+      font-size: 12.5px;
+      color: #555;
+      line-height: 1.55;
+    }
+
+    .action-area {
+      margin-top: 22px;
+    }
+
+    .join-btn {
+      appearance: none;
+      border: 0;
+      width: 180px;
+      min-height: 46px;
+      padding: 12px 18px;
+      border-radius: 28px;
+      background: #278bd1;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 6px 16px rgba(39,139,209,.2);
+      transition: transform .15s ease, opacity .15s ease;
+      font-family: inherit;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .join-btn:active {
+      transform: translateY(0);
+    }
+
+    .join-btn:disabled {
+      cursor: not-allowed;
+      opacity: .62;
+      box-shadow: none;
+    }
+
+    .hint {
+      margin-top: 9px;
+      color: #888;
+      font-size: 11.5px;
+    }
+
+    .status {
+      min-height: 18px;
+      margin-top: 8px;
+      color: #666;
+      font-size: 12px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      color: #999;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .footer a {
+      color: #278bd1;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 8px;
+    }
+
+    @media(max-width:380px) {
+      .page {
+        padding: 24px 14px 30px;
+      }
+
+      .profile-wrap {
+        width: 112px;
+        height: 112px;
+      }
+
+      h1 {
+        font-size: 23px;
+      }
+
+      .about, .tagline {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="profile-wrap">
+      <!-- Keep munaaf.jpg in the same folder -->
+      <img src="munaaf.jpg" alt="Munaaf profile">
+    </div>
+
+    <h1>
+      Munaaf™️<span class="verified">™</span>
+    </h1>
+
+    <div class="subs">47 059 + subscribers</div>
+
+    <div class="tagline">
+      Disclaimer:- WE ARE SEBI REGISTERED✅
+      <br>
+      I' AM NISM VERIFIED✅ NO CLAIMS
+    </div>
+
+    <div class="divider"></div>
+
+    <section class="about">
+      <strong>మా లక్ష్యం</strong>
+      <br>
+      ఈ కమ్యూనిటీలో ట్రేడింగ్ మరియు మార్కెట్‌కు సంబంధించిన సమాచారం,
+      నేర్చుకోవడానికి ఉపయోగపడే అప్‌డేట్స్ మరియు సాధారణ విద్యాపరమైన
+      కంటెంట్ షేర్ చేయబడతాయి. మీకు ఈ అంశాలపై ఆసక్తి ఉంటే మాత్రమే,
+      కింద ఇచ్చిన బటన్ ద్వారా మా టెలిగ్రామ్ ఛానెల్‌లో జాయిన్ అవ్వండి.
+    </section>
+
+    <div class="notice">
+      దయచేసి ఈ కమ్యూనిటీలోని కంటెంట్‌ను నిజంగా చూడాలనే ఆసక్తి
+      ఉన్నప్పుడు మాత్రమే జాయిన్ అవ్వండి. ఏదైనా ఆర్థిక నిర్ణయం
+      తీసుకునే ముందు, మీరే సరైన సమాచారాన్ని సేకరించి,
+      తగిన సలహా తీసుకోండి.
+    </div>
+
+    <div class="action-area">
+
+      <button id="joinBtn" class="join-btn" type="button" disabled>
+        JOIN CHANNEL
+      </button>
+
+      <div id="hint" class="hint">
+        Please wait for 1.5 seconds…
+      </div>
+
+      <div id="status" class="status" aria-live="polite"></div>
+
+    </div>
+
+    <div class="footer">
+      Educational/community information only.
+      Market activities involve risk.
+      <br>
+
+      <a
+        href="https://munaafprivacypolicy2.pages.dev/"
+        target="_blank"
+        rel="noopener">
+        Privacy Policy
+      </a>
+    </div>
+
+  </main>
+
+  <script>
+
+    const TELEGRAM_URL = "https://t.me/+mOQu14jvTqNmNjU9";
+
+    const MIN_VIEW_TIME = 1500;
+
+    const joinBtn = document.getElementById("joinBtn");
+    const hint = document.getElementById("hint");
+    const status = document.getElementById("status");
+
+    let pageReady = false;
+    let eventFired = false;
+
+    function log(msg) {
+      console.log("[OpenAI Pixel] " + msg);
+    }
+
+    function isBot() {
+      const ua = (navigator.userAgent || "").toLowerCase();
+
+      return !!navigator.webdriver ||
+        /bot|crawl|spider|headless|lighthouse|facebookexternalhit/.test(ua);
+    }
+
+    // Activate button after 1.5 seconds
+
+    window.setTimeout(function () {
+
+      pageReady = true;
+
+      joinBtn.disabled = false;
+
+      hint.textContent =
+        "Telegram ఛానెల్‌లో చేరడానికి క్లిక్ చేయండి";
+
+      log("Button activated");
+
+    }, MIN_VIEW_TIME);
+
+
+    // JOIN CHANNEL click event
+
+    joinBtn.addEventListener("click", function (e) {
+
+      if (!pageReady) {
+        log("Too fast click ignored");
+        return;
+      }
+
+      if (eventFired) {
+        log("Duplicate click ignored");
+        return;
+      }
+
+      if (!e.isTrusted) {
+        log("Script-generated click blocked");
+        return;
+      }
+
+      if (isBot()) {
+        log("Bot click blocked");
+        return;
+      }
+
+      eventFired = true;
+
+      joinBtn.disabled = true;
+
+      joinBtn.textContent = "OPENING TELEGRAM…";
+
+      status.textContent =
+        "మిమ్మల్ని టెలిగ్రామ్‌కు తీసుకెళ్తున్నాము…";
+
+
+      // Generate unique event ID
+
+      const eventId =
+        "lead_" + Date.now() + "_" +
+        Math.random().toString(36).slice(2, 10);
+
+
+      // OpenAI Measurement Pixel - LEAD CREATED EVENT
+
+      if (typeof window.oaiq === "function") {
+
+        window.oaiq(
+          "measure",
+          "lead_created",
+          {
+            type: "customer_action"
+          },
+          {
+            event_id: eventId
+          }
+        );
+
+        log("Lead Created event sent: " + eventId);
+
+      } else {
+
+        log("Pixel queue unavailable");
+
+      }
+
+
+      // Redirect after event dispatch
+
+      window.setTimeout(function () {
+
+        window.location.href = TELEGRAM_URL;
+
+      }, 500);
+
+    });
+
+  </script>
+
+</body>
+</html>
